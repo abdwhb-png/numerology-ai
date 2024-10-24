@@ -84,7 +84,4 @@ def webhook():
 
 
 if __name__ == "__main__":
-    if os.getenv("APP_ENV") == "production":
-        app.run()
-    else:
-        app.run(port=5000)
+    app.run(port=5000)
