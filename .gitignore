@@ -1,0 +1,7 @@
+*.code-workspace
+.env
+remarks.txt
+/myenv
+/source
+/.venv
+__pycache__/
